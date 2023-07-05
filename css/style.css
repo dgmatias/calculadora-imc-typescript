@@ -1,0 +1,186 @@
+.hide {
+    display: none;
+}
+
+body {
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* Calc container */
+
+.calc-container {
+    background-color: rgb(43, 43, 43);
+    box-sizing: border-box;
+    color: white;
+    padding: 2rem;
+    height: 60vh;
+    width: 60vh;
+}
+
+.h1-container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Form-container */
+
+.form-container {
+    /* background-color: aqua; */
+    margin: 2rem;
+}
+
+/* Input-container */
+
+.label-form , .input-form {
+    display: block;
+}
+
+.label-form {
+    /* color: red; */
+    font-size: 20px;
+    /* margin-bottom: 3rem; */
+}
+
+.input-form {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    outline: none;
+    width: 100%;
+}
+
+/* Button-container */
+
+.calc-button {
+    
+    background-color: white;
+    border: none;
+    height: 7vh;
+    width: 20vh;
+    opacity: 0.8;
+    padding: 0.5rem;
+}
+
+.calc-button:hover {
+    box-sizing: border-box;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.limpar-button {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 7vh;
+    opacity: 0.8;
+    padding: 0.5rem;
+    width: 20vh;
+}
+
+.limpar-button:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+/* Resultado-container */
+
+.resultado-container {
+    background-color: rgb(43, 43, 43);
+    box-sizing: border-box;
+    color: white;
+    padding: 2rem;
+    min-height: 60vh;
+    min-width: 60vh;
+}
+
+.imc-container {
+    padding: 1rem;
+}
+
+.imc-container p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.classificacao-container {
+    font-size: 23px;
+    text-align: center;
+}
+
+/* Table-container */
+
+.table-container {
+    margin: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+table td {
+    font-size: 17px;
+    /* color: aqua; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+table tr {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid black;
+}
+
+.voltar-container {
+    /* width: 10vh; */
+    /* height: 10vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.voltar-button {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 17px;
+    height: 7vh;
+    opacity: 0.9;
+    padding: 0.5rem;
+    width: 20vh;
+}
+
+.voltar-button:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+.magreza {
+    color: yellow
+}
+
+.normal {
+    color: green;
+}
+
+.sobrepeso {
+    color: yellow
+}
+
+.obesidade {
+    color: orangered;
+}
+
+.grave {
+    color: red;
+}
